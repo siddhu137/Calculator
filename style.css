@@ -1,0 +1,120 @@
+#calc{
+  border: 1px solid rgb(187,183,183);
+  border-radius: 10px;
+  width:200px;
+  justify-content: center;
+}
+#display{
+  margin:10px;
+  width:85%;
+  font-size: 25px;
+  border-radius: 10px;
+  color:rgb(155, 219, 148);
+  background-color: rgb(128, 167, 61);
+}
+.button{
+  width:45px;
+  height:45px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  font-size: 20px;
+  
+}
+.button:hover{
+  background-color:rgb(204, 91, 25);
+  color:aquamarine;
+}
+
+
+
+ .bc{
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+ }
+ #calc{
+  background-color: rgb(110, 151, 157);
+ }
+ #i{
+  background-color: rgb(110, 122, 201);
+  color:aquamarine;
+  
+ }
+ h2{
+     text-align: center;
+     color:rgba(198, 117, 25, 0.949);
+     margin-top: 100px;
+     margin-bottom: 0;
+ }
+ #calc{
+  margin: auto auto;
+ }
+ body {
+  background: radial-gradient(circle, #c4d1a2, #feb47b);
+}
+/* From Uiverse.io by vikiWayne */ 
+.button {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #2c9caf;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #2c9caf;
+}
+
+button:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px #268391;
+}
+
+@font-face {
+  font-family: 'Rocher';
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+h2 {
+  font-family: 'Rocher';
+  text-align: center;
+  font-size: 50px;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+
+
+ @font-palette-values --Grays {
+  font-family: Rocher;
+  base-palette: 9;
+}
+
+@font-palette-values --Purples {
+  font-family: Rocher;
+  base-palette: 6;
+}
+
+@font-palette-values --Mint {
+  font-family: Rocher;
+  base-palette: 7;
+}
+
+
+
+.h2 {
+  font-palette: --Purples;
+} 
+
+
+
+
+

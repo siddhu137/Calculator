@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY CALC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>MY CALCULATOR</h2>
+  <div id="calc" >
+     <div id="i"><input typr="text" id="display"></div>
+     <div class="bc">
+       <div>
+      <button class="button" onclick="numd=''
+      document.querySelector('#display').value=numd;
+      ">c</button>
+      <button class="button" onclick="numd=numd+'1'
+      document.querySelector('#display').value=numd;
+      ">1</button>
+      <button class="button" onclick="numd=numd+'2'
+      document.querySelector('#display').value=numd;
+      ">2</button>
+     </div>
+     <div>
+      <button class="button" onclick="numd=numd+'+'
+      document.querySelector('#display').value=numd;
+      ">+</button>
+      <button class="button" onclick="numd=numd+'3'
+      document.querySelector('#display').value=numd;
+      ">3</button>
+      <button class="button" onclick="numd=numd+'4'
+      document.querySelector('#display').value=numd;
+      ">4</button>
+     </div>
+     <div>
+      <button class="button" onclick="numd=numd+'-'
+      document.querySelector('#display').value=numd;
+      ">-</button>
+      <button class="button" onclick="numd=numd+'5'
+      document.querySelector('#display').value=numd;
+      ">5</button>
+      <button class="button" onclick="numd=numd+'6'
+      document.querySelector('#display').value=numd;
+      ">6</button>
+     </div>
+     <div>
+      <button class="button" onclick="numd=numd+'*'
+      document.querySelector('#display').value=numd;
+      ">*</button>
+      <button class="button" onclick="numd=numd+'7'
+      document.querySelector('#display').value=numd;
+      ">7</button>
+      <button class="button" onclick="numd=numd+'8'
+      document.querySelector('#display').value=numd;
+      ">8</button>
+     </div>
+     <div>
+      <button class="button" onclick="numd=numd+'/'
+      document.querySelector('#display').value=numd;
+      ">/</button>
+      <button class="button" onclick="
+      let result=eval(numd);
+      document.querySelector('#display').value=result;
+      ">=</button>
+      <button class="button" onclick="numd=numd+'9'
+      document.querySelector('#display').value=numd;
+      ">9</button>
+     </div>
+     <div>
+     
+      <button class="button" onclick="numd=numd+'0'
+      document.querySelector('#display').value=numd;
+      ">0</button>
+      <button class="button" onclick="numd=numd+'.'
+      document.querySelector('#display').value=numd;
+      ">.</button>
+     </div>
+     </div>
+    </div>
+  </div>
+<script>
+  let numd='';
+  document.querySelector('#display').value=numd;
+</script>
+</body>
+</html>
